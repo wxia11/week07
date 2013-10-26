@@ -1,0 +1,18 @@
+﻿Build started 2013-10-18 12:40:29 PM.
+     1>Project "E:\Visual Studio workspace\week07\week07\week07.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dlinkedlist.cpp dlltester.cpp
+         dlltester.cpp
+         dlinkedlist.cpp
+     1>e:\visual studio workspace\week07\week07\dlinkedlist.cpp(4): error C2653: 'DLinkedlist' : is not a class or namespace name
+     1>e:\visual studio workspace\week07\week07\dlinkedlist.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\visual studio workspace\week07\week07\dlinkedlist.cpp(5): error C2065: 'head' : undeclared identifier
+     1>e:\visual studio workspace\week07\week07\dlinkedlist.cpp(5): error C2065: '_tail' : undeclared identifier
+     1>e:\visual studio workspace\week07\week07\dlinkedlist.cpp(5): error C2065: '_curr' : undeclared identifier
+     1>e:\visual studio workspace\week07\week07\dlinkedlist.cpp(7): warning C4508: 'oop344::DLinkedlist' : function should return a value; 'void' return type assumed
+         Generating Code...
+     1>Done Building Project "E:\Visual Studio workspace\week07\week07\week07.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.43
